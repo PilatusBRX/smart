@@ -1,0 +1,172 @@
+h2.header{
+  font-size: 42px;
+}
+
+.blue-grey, .sidenav{
+    background: linear-gradient(25deg,  #1dc8cd, #00b0ff);
+
+}
+.sidenav li > a{
+    color: #fff!important;
+}
+.sidenav li > b{
+    margin-left: 28px;
+}
+footer  {
+    background-color: #f2f2f2!important;
+    margin-top: 300px;
+
+}
+
+.footer-container{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.footer-container a{
+  color: #343434;
+}
+
+h4.title{
+    color:#03a9f4;
+
+}
+
+.btn-left{
+    float: left;
+}
+
+.btn-left, .btn-right{
+    top: -12px;
+    position: relative;
+}
+.btn-right{
+    color: #fff;
+}
+.pagination {
+  margin-top: 24px;
+  margin-bottom: -80px;
+}
+.pagination li.active a {
+  background: linear-gradient(25deg,  #1dc8cd, #00b0ff);
+
+}
+
+.btn-add{
+    float: right;
+    margin-right: 100px;
+}
+.main-content{
+
+  margin-top: 80px;
+
+}
+
+
+
+table tr td,
+table tr th{
+  padding: 25px;
+}
+
+th.title-header{
+    font-size: 16px;
+    color: #5E7687;
+    font-weight: 600;
+    line-height: 30px;
+}
+.cat, .date{
+    color:#576E7D ;
+    font-weight: 500;
+    font-size: 15px;
+    height: 36px;
+
+}
+
+.cat .btn{
+  border-radius: 5px;
+  background: #00b0ff;
+  text-transform: lowercase;
+
+}
+
+.link-style a{
+    line-height: 30px;
+    font-weight: 600;
+    color:  #00b0ff;
+}
+
+.edit-section{
+    margin-bottom: 200px;
+}
+.material i{
+  color:  #00b0ff;
+}
+
+.banner{
+  background: #f9f9f9;
+  color: #eee;
+}
+
+.section h2{
+  color: #607D8B;
+}
+
+.section h5{
+    color: #607D8B;
+}
+.section h2,
+.banner h2,
+.block h2{
+  font-size: 38px;
+  font-weight: 500px;
+}
+
+.banner .container{
+
+  padding: 40px 20px 40px 20px;
+  text-align: center;
+}
+
+.banner {
+    background: linear-gradient(25deg,  #1dc8cd, #00b0ff);
+}
+
+.banner .container h5{
+  padding-bottom: 40px;
+
+}
+.block{
+  margin-bottom: -320px;
+
+
+}
+
+
+@media(min-width: 960px){
+    .link-style{
+        width: 450px;
+    }
+
+}
+
+@media(max-width: 500px){
+
+    h4.title{
+        font-size: 22px;
+    }
+    .btn-add{
+        float: right;
+        margin-right: 40px;
+        width: 24px;
+        height: 24px;
+
+
+    }
+    .btn-left{
+        display: block;
+        float: right;
+    }
+
+}
