@@ -7,3 +7,5 @@ Smart! é um gerenciador de armazenamento de links. Achou um vídeo, matéria de
 Você só precisa rodar o "composer update, configurar o banco de dados, duplicar o arquivo .env.example e renomeá-lo para .env e depois rodar php artisan migrate". Isso é tudo.
 
 Visite meu portfolio: https://portfolio.hellostudio.com.br
+
+
